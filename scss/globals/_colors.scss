@@ -1,4 +1,23 @@
 :root {
-  --background-color:  rgb(12, 16, 32);
-  --text-color: rgba(255, 255, 255, 0.9);
+  --background-color:  #0c1020;
+  --text-color: #ffffffe6;
+  --primary-color: #343a40;
+  --header-text-color: #b9c1c3;
+  --active-text-color: #1e78c8;
+}
+
+.background {
+  &--primary {
+    background-color: var(--primary-color);
+  }
+}
+
+.text {
+  &--header {
+    color: var(--header-text-color);
+  }
+  
+  &--active {
+  color: var(--active-text-color);
+  }
 }

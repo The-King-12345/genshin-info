@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.body {
+  display: flex;
+  flex: auto;
+  padding: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-self: flex-start;
+  padding: 0.75rem;
+}
+
