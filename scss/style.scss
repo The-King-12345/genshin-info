@@ -1,3 +1,7 @@
-@forward 'globals'; 
-@forward 'util';
+@forward 'base'; 
+@forward 'components';
 @forward 'layout';
+@forward 'pages';
+@forward 'themes';
+@forward 'utils';
+@forward 'vendors';

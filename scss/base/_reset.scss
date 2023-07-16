@@ -1,4 +1,4 @@
-@use '../util/' as u;
+@use '../utils/' as u;
 
 html {
   box-sizing: border-box;
@@ -15,6 +15,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: u.$font;
-  background-color: var(--background-color);
-  color: var(--text-color)
+  background-color: u.$color-background;
+  color: u.$color-text;
 }

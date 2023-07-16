@@ -1,0 +1,14 @@
+@use '../utils/' as u;
+
+.footer {
+  display: flex;
+  justify-self: flex-start;
+  padding: 0.75rem;
+
+  background-color: u.$color-header;
+  color: u.$color-header-text;
+
+  &__text {
+    font-size: 0.75em;
+  }
+}

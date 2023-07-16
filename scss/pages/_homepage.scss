@@ -1,0 +1,10 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mid-section {
+  flex: auto;
+  padding: 1rem;
+}
