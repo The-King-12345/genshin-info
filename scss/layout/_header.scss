@@ -14,7 +14,8 @@
 .button-base {
 
   &__text {
-
+    color: u.$color-header-text;
+    
     &--strong {
       font-size: 1.25em;
       font-weight: 700;
