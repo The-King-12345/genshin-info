@@ -1,29 +1,8 @@
-@use '../utils/' as u;
-
 .header {
   display: flex;
   align-items: center;
   gap: 2rem;
   padding: 1rem;
-
-  background-color: u.$color-header;
-  color: u.$color-header-text;
-
 }
 
-.button-base {
-
-  &__text {
-    color: u.$color-header-text;
-    
-    &--strong {
-      font-size: 1.25em;
-      font-weight: 700;
-    }
-
-    &--active {
-      color: u.$color-active;
-    }
-  }
-}
 

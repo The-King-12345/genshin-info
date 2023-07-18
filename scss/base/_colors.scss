@@ -1,0 +1,22 @@
+@use '../utils/' as u;
+
+.header,
+.footer {
+  background-color: u.$color-header;
+  color: u.$color-header-text;
+
+  &__text {
+    color: u.$color-header-text;
+  }
+}
+
+.card {
+  background-color: u.$color-primary;
+}
+
+.text{
+  &--active {
+    color: u.$color-active;
+  }
+}
+
